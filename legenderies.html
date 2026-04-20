@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen 4 Legendary Pokémon</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="legendary-page">
+    <header class="hero">
+        <h1 class="hero-title">Gen 4 Legendary Pokémon</h1>
+        <p class="hero-subtitle">Discover the legendary Pokémon of Generation 4</p>
+        <p class="hero-description">These powerful beings shape the world and hold incredible abilities that define the lore of Sinnoh.</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Top 10</a></li>
+                <li><a href="legenderies.html" class="active">Legendaries</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pokemon-grid legendary-grid">
+            <div class="pokemon-card">
+                <img src="images/dialga.png" alt="Dialga">
+                <h2>Dialga</h2>
+                <div class="types">
+                    <span class="type steel">Steel</span>
+                    <span class="type dragon">Dragon</span>
+                </div>
+                <p>The Temporal Pokémon, controller of time itself with powerful Dragon and Steel moves.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/palkia.png" alt="Palkia">
+                <h2>Palkia</h2>
+                <div class="types">
+                    <span class="type water">Water</span>
+                    <span class="type dragon">Dragon</span>
+                </div>
+                <p>The Spatial Pokémon, master of space and dimensions with devastating spatial attacks.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/giratina.png" alt="Giratina">
+                <h2>Giratina</h2>
+                <div class="types">
+                    <span class="type ghost">Ghost</span>
+                    <span class="type dragon">Dragon</span>
+                </div>
+                <p>The Renegade Pokémon, guardian of the Reverse World with shadow-based powers.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/uxie.png" alt="Uxie">
+                <h2>Uxie</h2>
+                <div class="types">
+                    <span class="type psychic">Psychic</span>
+                </div>
+                <p>The Knowledge Pokémon, one of the Lake Guardians granting wisdom and special abilities.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/mesprit.png" alt="Mesprit">
+                <h2>Mesprit</h2>
+                <div class="types">
+                    <span class="type psychic">Psychic</span>
+                </div>
+                <p>The Emotion Pokémon, another Lake Guardian that influences feelings and emotions.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/azelf.png" alt="Azelf">
+                <h2>Azelf</h2>
+                <div class="types">
+                    <span class="type psychic">Psychic</span>
+                </div>
+                <p>The Willpower Pokémon, the final Lake Guardian that controls willpower and minds.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/regigigas.png" alt="Regigigas">
+                <h2>Regigigas</h2>
+                <div class="types">
+                    <span class="type normal">Normal</span>
+                </div>
+                <p>The Colossal Pokémon, an ancient giant with immense strength and the power to move continents.</p>
+            </div>
+            <div class="pokemon-card">
+                <img src="images/cresselia.png" alt="Cresselia">
+                <h2>Cresselia</h2>
+                <div class="types">
+                    <span class="type psychic">Psychic</span>
+                </div>
+                <p>The Lunar Pokémon, bringer of good dreams and protector against nightmares.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay hidden" id="pokemon-modal">
+        <div class="modal-card">
+            <button class="modal-close" id="modal-close">×</button>
+            <img id="modal-image" src="" alt="pokemon image">
+            <p class="modal-physical" id="modal-physical"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
